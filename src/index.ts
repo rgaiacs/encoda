@@ -13,6 +13,7 @@ import * as doiUrl from './doi-url'
 import * as json from './json'
 // import * as md from './md';
 import * as ods from './ods'
+import * as orcid from './orcid'
 import * as person from './person'
 import * as tdp from './tdp'
 import * as vfile from './vfile'
@@ -47,6 +48,7 @@ export const compilerList: Array<Compiler> = [
   // html,
   json,
 
+  orcid,
   person
 ]
 
