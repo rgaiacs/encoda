@@ -6,6 +6,8 @@ import path from 'path'
 import * as bib from './bib'
 import * as csl from './csl'
 import * as csv from './csv'
+import * as doi from './doi'
+import * as doiUrl from './doi-url'
 // import * as html from './html';
 import * as json from './json'
 // import * as md from './md';
@@ -36,6 +38,8 @@ export const compilerList: Array<Compiler> = [
 
   csl,
   bib,
+  doi,
+  doiUrl,
 
   yaml,
   // html,
