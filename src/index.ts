@@ -4,6 +4,7 @@ import getStdin from 'get-stdin'
 import mime from 'mime'
 import path from 'path'
 import * as bib from './bib'
+import * as crossrefQuery from './crossref-query'
 import * as csl from './csl'
 import * as csv from './csv'
 import * as doi from './doi'
@@ -40,6 +41,7 @@ export const compilerList: Array<Compiler> = [
   bib,
   doi,
   doiUrl,
+  crossrefQuery,
 
   yaml,
   // html,
