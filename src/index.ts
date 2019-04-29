@@ -8,7 +8,6 @@ import * as crossrefQuery from './crossref-query'
 import * as csl from './csl'
 import * as csv from './csv'
 import * as doi from './doi'
-import * as doiUrl from './doi-url'
 // import * as html from './html';
 import * as json from './json'
 // import * as md from './md';
@@ -41,7 +40,6 @@ export const compilerList: Array<Compiler> = [
   csl,
   bib,
   doi,
-  doiUrl,
   crossrefQuery,
 
   yaml,
