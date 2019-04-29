@@ -3,6 +3,8 @@ import fs from 'fs-extra'
 import getStdin from 'get-stdin'
 import mime from 'mime'
 import path from 'path'
+import * as bib from './bib'
+import * as csl from './csl'
 import * as csv from './csv'
 // import * as html from './html';
 import * as json from './json'
@@ -31,6 +33,9 @@ export const compilerList: Array<Compiler> = [
 
   csv,
   // md,
+
+  csl,
+  bib,
 
   yaml,
   // html,
