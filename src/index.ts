@@ -8,6 +8,7 @@ import * as csv from './csv'
 import * as json from './json'
 // import * as md from './md';
 import * as ods from './ods'
+import * as person from './person'
 import * as tdp from './tdp'
 import * as vfile from './vfile'
 import * as xlsx from './xlsx'
@@ -33,7 +34,9 @@ export const compilerList: Array<Compiler> = [
 
   yaml,
   // html,
-  json
+  json,
+
+  person
 ]
 
 /**
