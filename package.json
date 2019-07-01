@@ -38,7 +38,7 @@
     "collapse-whitespace": "^1.1.7",
     "datapackage": "^1.1.1",
     "escape-html": "^1.0.3",
-    "fp-ts": "^2.0.0-rc.4",
+    "fp-ts": "2.0.0-rc.8",
     "fs-extra": "^8.1.0",
     "get-stdin": "^7.0.0",
     "globby": "^9.2.0",
